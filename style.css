@@ -1,0 +1,163 @@
+.pdf{
+    color: aqua;
+    background-color:#e7f7d7;
+    text-overflow: inherit;
+    
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    padding: 10px 30px;
+    background-color: #F7F7F7;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px #006838;
+    margin-bottom: 35px;
+}
+
+.links{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    font-size: 18px;
+}
+
+.header .image img{
+    width: 250px;
+}
+
+.pdf{
+    text-decoration: none;
+    color: grey;
+}
+
+.registration{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    padding: 20PX 0;
+    color: #006838;
+}
+
+form{
+    width: 70%;
+    margin: 10px auto;
+    box-shadow: 0 0 5px 5px #006838;
+    border-radius: 5px;
+    
+}
+
+.body{
+    margin-top: 60px;
+    font-size: 20px;
+    color: #006838;
+    display: block;
+    border: white 5px groove;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.hov:hover{
+    background-color: hsl(152, 80%, 48%);
+    color: black;
+    transition: 0.5s ease-in-out;
+    border-color: aqua;
+    box-shadow: 0 0 20px white;
+}
+
+.first-row{
+    display: inline-block;
+    width: 25%;
+    padding: 10PX 4% 10PX 6%;
+    
+}
+
+.second-row{
+    display: inline-block;
+    width: 25%;
+    padding: 10PX 2% 10PX 2%;
+}
+
+.third-row{
+    display: inline-block;
+    width: 25%;
+    padding: 10PX 6% 10PX 4%;
+}
+
+input,select{
+    font-size: 16px;
+    width: 100%;
+    margin: 17px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #006838;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+span{
+    color: #006838;
+}
+
+.div2{
+    padding: 0 6%;
+}
+
+#photo{
+    width: 60%;
+    border: 1px dotted #006838;
+    padding: 30px;
+    font-size: large;
+    
+}
+
+label{
+    color: #585976;
+    font-weight: bold;
+}
+
+button{
+    width: 30%;
+    background-color: #006838;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    filter: drop-shadow(0 0 10px
+    hsl(156, 100%, 2%));
+    
+    
+}
+
+#photo::-webkit-file-upload-button{
+    background-color: #044d2a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 200px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: hwb(120 49% 49%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: lightgrey;
+    border-radius: 10px;
+  }
